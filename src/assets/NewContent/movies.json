@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Al filo del invierno",
+        "img": "alFiloDelInvierno.png",
+        "path": "alFiloDelInvierno.mp4"
+    },
+    {
+        "name": "Aniquilación",
+        "img": "aniquilacion.png",
+        "path": "aniquilacion.mp4"
+    },
+    {
+        "name": "Dune",
+        "img": "dune.png",
+        "path": "dune.mp4"
+    },
+    {
+        "name": "Apostol",
+        "img": "apostol.png",
+        "path": "apostol.mp4"
+    }
+
+]
