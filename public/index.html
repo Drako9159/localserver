@@ -6,39 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    
+    <link rel="stylesheet" type="text/css" href="./NewContent/NewContent.css">
 </head>
 <body>
-    <section></section>
     <section>
-        <div >Cabecera</div>
+        <div class="media0" id="media0" onclick="mediaOff()">
+            <video class="video0" id="video0" autoplay controls>
+                <source type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <section>
+        <div class="home0">Cabecera</div>
     </section>
     <section class="section1 container-fluid">
         <div class="subBanner0 container got flex-container">
             <h2> NUEVO CONTENIDO</h2>
             <div class="flex-container">
-                <div class="portada0"><img class="portadaImg" id="img0"></div>
-                <div class="portada0"><img class="portadaImg" id="img1"></div>
-                <div class="portada0"><img class="portadaImg" id="img2"></div>
-                <div class="portada0"><img class="portadaImg" id="img3"></div>
+                <div class="portada0" onclick="play(0)"><img class="portadaImg" id="img0"></div>
+                <div class="portada0" onclick="play(1)"><img class="portadaImg" id="img1"></div>
+                <div class="portada0" onclick="play(2)"><img class="portadaImg" id="img2"></div>
+                <div class="portada0" onclick="play(3)"><img class="portadaImg" id="img3"></div>
             </div>
             <div class="flex-container">
-                <div class="portada0"><img class="portadaImg" id="img4"></div>
-                <div class="portada0"><img class="portadaImg" id="img5"></div>
-                <div class="portada0"><img class="portadaImg" id="img6"></div>
-                <div class="portada0"><img class="portadaImg" id="img7"></div>
+                <div class="portada0" onclick="play(4)"><img class="portadaImg" id="img4"></div>
+                <div class="portada0" onclick="play(5)"><img class="portadaImg" id="img5"></div>
+                <div class="portada0" onclick="play(6)"><img class="portadaImg" id="img6"></div>
+                <div class="portada0" onclick="play(7)"><img class="portadaImg" id="img7"></div>
             </div>
             <div class="flex-container">
-                <div class="portada0"><img class="portadaImg" id="img8"></div>
-                <div class="portada0"><img class="portadaImg" id="img9"></div>
-                <div class="portada0"><img class="portadaImg" id="img10"></div>
-                <div class="portada0"><img class="portadaImg" id="img11"></div>
+                <div class="portada0" onclick="play(8)"><img class="portadaImg" id="img8"></div>
+                <div class="portada0" onclick="play(9)"><img class="portadaImg" id="img9"></div>
+                <div class="portada0" onclick="play(10)"><img class="portadaImg" id="img10"></div>
+                <div class="portada0" onclick="play(11)"><img class="portadaImg" id="img11"></div>
             </div>
             <div class="flex-container">
-                <div class="portada0"><img class="portadaImg" id="img12"></div>
-                <div class="portada0"><img class="portadaImg" id="img13"></div>
-                <div class="portada0"><img class="portadaImg" id="img14"></div>
-                <div class="portada0"><img class="portadaImg" id="img15"></div>
+                <div class="portada0" onclick="play(12)"><img class="portadaImg" id="img12"></div>
+                <div class="portada0" onclick="play(13)"><img class="portadaImg" id="img13"></div>
+                <div class="portada0" onclick="play(14)"><img class="portadaImg" id="img14"></div>
+                <div class="portada0" onclick="play(15)"><img class="portadaImg" id="img15"></div>
             </div>
         </div>
         
@@ -51,85 +57,4 @@
     
 </body>
 </html>
-<script>
-    const cubani = "img0";
-    const NewImgPath = document.getElementById(cubani);
-    NewImgPath.src = "./alFiloDelInvierno.png"
-    //const PlayMovies = require("../src/controllers/ControllerMovies.js");
-    //console.log(PlayMovies.getImg(2));
-    /*const line = document.getElementById("img0")
-    line.src = "../src/assets/NewContent/img/apostol.png"
-    */
-    function goPlay(id, path){
-        path = document.getElementById(id).src
-    }
-    function goPath(number){
-        const PlayMovies = require("../src/controllers/ControllerMovies.js");
-        const movies = PlayMovies.getImg(number);
-        return movies;
-
-    }
-    
-    for(let imgCharge = 0; imgCharge <= 3; imgCharge = imgCharge + 1 ){
-        let ostec = `img${imgCharge}`;
-        //let doc = document.getElementById(ostec)
-        let rin = goPath(imgCharge);
-      //  let chargeImg = PlayMovies.getImg(imgCharge);
-       // let pathImg = `./${chargeImg}`;
-        let pathImg = `../src/assets/NewContent/img/${rin}`;
-        gotPlay(pathImg, ostec);
-        //pathImg//"../src/assets/NewContent/img/apostol.png"
-        
-
-    }
-    /*
-    
-    for(let imgCharge = 0; imgCharge <= 3; imgCharge = imgCharge + 1 ){
-        let ostec = `img${imgCharge}`;
-        let chargeImg = PlayMovies.getImg(imgCharge);
-        let pathImg = `../src/assets/NewContent/img/${chargeImg}`;
-
-        console.log(pathImg);
-
-
-    }*/
-    
-</script>
-<style>
-
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.flex-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.got{
-    display: flex;
-    flex-direction: column;
-}
-.section1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 1300px;
-    background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-}
-.subBanner0{
-    height: 1200px;
-    background-color: red;
-}
-.portada0{
-    margin: 5px;
-    background-color: blue;
-    width: 170px;
-    height: 250px;
-}
-.portadaImg{
-    width: 170px;
-    height: 250px;
-}
-</style>
+<script src="./NewContent/NewContent.js"></script>
