@@ -52,22 +52,38 @@
 </body>
 </html>
 <script>
-    import PlayMovies from "../srv/controllers/ControllerMovies.js"
-    const PlayMovies = require("../src/controllers/ControllerMovies.js");
+    const cubani = "img0";
+    const NewImgPath = document.getElementById(cubani);
+    NewImgPath.src = "./alFiloDelInvierno.png"
+    //const PlayMovies = require("../src/controllers/ControllerMovies.js");
     //console.log(PlayMovies.getImg(2));
     /*const line = document.getElementById("img0")
     line.src = "../src/assets/NewContent/img/apostol.png"
     */
-  
+    function goPlay(id, path){
+        path = document.getElementById(id).src
+    }
+    function goPath(number){
+        const PlayMovies = require("../src/controllers/ControllerMovies.js");
+        const movies = PlayMovies.getImg(number);
+        return movies;
+
+    }
+    
     for(let imgCharge = 0; imgCharge <= 3; imgCharge = imgCharge + 1 ){
         let ostec = `img${imgCharge}`;
-        let doc = document.getElementById(ostec)
-        let chargeImg = PlayMovies.getImg(imgCharge);
-        let pathImg = `../src/assets/NewContent/img/${chargeImg}`;
-        doc.src = pathImg//"../src/assets/NewContent/img/apostol.png"
+        //let doc = document.getElementById(ostec)
+        let rin = goPath(imgCharge);
+      //  let chargeImg = PlayMovies.getImg(imgCharge);
+       // let pathImg = `./${chargeImg}`;
+        let pathImg = `../src/assets/NewContent/img/${rin}`;
+        gotPlay(pathImg, ostec);
+        //pathImg//"../src/assets/NewContent/img/apostol.png"
         
 
-    }/*
+    }
+    /*
+    
     for(let imgCharge = 0; imgCharge <= 3; imgCharge = imgCharge + 1 ){
         let ostec = `img${imgCharge}`;
         let chargeImg = PlayMovies.getImg(imgCharge);
