@@ -24,6 +24,7 @@
     margin: 5px;
     width: 25px;
 }
+
 .subTitle0{
 
     font-size: 20px;
@@ -685,14 +686,6 @@
     .dropImg0:hover{
       
         cursor: pointer;
-    }
-
-    .test{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        float: left;
     }
 
 }

@@ -281,10 +281,10 @@ function play(number){
     document.getElementById("media0").className = "mediaOn"
     document.getElementById("video0").className = "videoOn"
     document.getElementById("nameMov0").className = "nameMovOn"
-    document.getElementById("dropImg0").className = "dropImgOff"
-    document.getElementById("dropImg1").className = "dropImgOff"
-    document.getElementById("dropImg2").className = "dropImgOff"
-    document.getElementById("dropImg3").className = "dropImgOff"
+    //document.getElementById("dropImg0").className = "dropImgOff"
+    //document.getElementById("dropImg1").className = "dropImgOff"
+    //document.getElementById("dropImg2").className = "dropImgOff"
+    //document.getElementById("dropImg3").className = "dropImgOff"
     
     let needVideo = movies[number].path
     let again = `./video/${needVideo}`
