@@ -52,9 +52,9 @@ const movies = [
         "img": "sonic2.png",
         "path": "sonic2.mp4"
     },{
-        "name": "Cosas Imposibles",
-        "img": "cosasImposibles.png",
-        "path": "cosasImposibles.mp4"
+        "name": "Chip And Dale",
+        "img": "chipAndDale.png",
+        "path": "chipAndDale.mkv"
     },{
         "name": "Insidious 3",
         "img": "insidious3.png",
