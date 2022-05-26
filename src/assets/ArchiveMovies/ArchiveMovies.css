@@ -178,7 +178,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 1990px;
+        height: 2090px;
         background: linear-gradient(80deg, rgb(241, 94, 117) 0%, rgb(241, 94, 117) 35%, rgb(255, 255, 255) 100%);
     }
     .subBanner0{
@@ -247,7 +247,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 2200px;
+        height: 2300px;
         background: linear-gradient(80deg, rgb(241, 94, 117) 0%, rgb(241, 94, 117) 35%, rgb(255, 255, 255) 100%);
     }
     .subBanner0{
@@ -317,7 +317,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 2900px;
+        height: 2150px;
         background: linear-gradient(80deg, rgb(241, 94, 117) 0%, rgb(241, 94, 117) 35%, rgb(255, 255, 255) 100%);
     }
     .subBanner0{
@@ -327,12 +327,12 @@
     .portada0{
         margin: 5px;
         background-color: black;
-        width: 90px;
-        height: 120px;
+        width: 70px;
+        height: 115px;
     }
     .portadaImg{
-        width: 90px;
-        height: 120px;
+        width: 70px;
+        height: 115px;
     }
     .portadaImg:hover{
         cursor: pointer;
@@ -526,7 +526,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 1350px;
+        height: 1600px;
         background: linear-gradient(80deg, rgb(241, 94, 117) 0%, rgb(241, 94, 117) 35%, rgb(255, 255, 255) 100%);
     }
     .subBanner0{
@@ -537,11 +537,11 @@
         margin: 5px;
         background-color: black;
         width: 90px;
-        height: 110px;
+        height: 120px;
     }
     .portadaImg{
         width: 90px;
-        height: 110px;
+        height: 120px;
     }
     .portadaImg:hover{
         cursor: pointer;

@@ -26,8 +26,23 @@
 }
 
 .subTitle0{
-
+    animation-name: subTitle0;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
     font-size: 20px;
+}
+@keyframes subTitle0 {
+    0%{ color: rgb(0, 42, 90);  }
+    10%{ color: rgb(0, 56, 121);  }
+    20%{ color: rgb(0, 69, 148);  }
+    30%{ color: rgb(0, 72, 155);  }
+    40%{ color: rgb(0, 87, 187);  }
+    50%{ color: rgb(0, 94, 202);  }
+    60%{ color: rgb(0, 87, 187);  }
+    70%{ color: rgb(0, 72, 155);  }
+    80%{ color: rgb(0, 69, 148);  }
+    90%{ color: rgb(0, 56, 121);  }
+    100%{ color: rgb(0, 42, 90);  }
 }
 .closeMov0{
     margin: 0px;
@@ -594,9 +609,11 @@
         width: 25px;
     }
     .subTitle0{
-    
+        
         font-size: 20px;
     }
+    
+    
     .closeMov0{
         margin: 0px;
         width: 0px;

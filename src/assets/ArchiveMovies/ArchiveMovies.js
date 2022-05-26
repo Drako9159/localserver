@@ -263,11 +263,15 @@ const movies = [
         "name": "VHS94",
         "img": "vhs94.png",
         "path": "vhs94.mp4"
+    },{
+        "name": "Cosas Imposibles",
+        "img": "cosasImposibles.png",
+        "path": "cosasImposibes.mp4"
     }
 ]
 
 //ChargeImagesnumbe
-for(let imgCharge = 0; imgCharge <= 65; imgCharge = imgCharge + 1 ){
+for(let imgCharge = 0; imgCharge <= 66; imgCharge = imgCharge + 1 ){
     let ostec = `img${imgCharge}`;
     let doc = document.getElementById(ostec);
     let checkMov = movies[imgCharge].img;
