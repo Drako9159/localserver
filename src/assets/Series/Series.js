@@ -20,11 +20,12 @@ for(let imgCharge = 0; imgCharge <= 65; imgCharge = imgCharge + 1 ){
     console.log(pathImg);
 }
 function play(number){
-
-    document.getElementById("closeMov0").className = "closeMovOn"
-    document.getElementById("media0").className = "mediaOn"
-    document.getElementById("video0").className = "videoOn"
-    document.getElementById("nameMov0").className = "nameMovOn"
+    document.getElementById("portada0").className = "tempMenu"
+    //document.getElementById("closeMov0").className = "closeMovOn"
+    //document.getElementById("media0").className = "mediaOn"
+    //document.getElementById("video0").className = "videoOn"
+    //document.getElementById("nameMov0").className = "nameMovOn"
+    
     //document.getElementById("dropImg0").className = "dropImgOff"
     //document.getElementById("dropImg1").className = "dropImgOff"
     //document.getElementById("dropImg2").className = "dropImgOff"

@@ -50,35 +50,50 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 840px;
+    height: 440px;
     background: linear-gradient(80deg, rgb(237, 189, 31) 0%, rgb(237, 189, 31) 35%, rgb(255, 255, 255) 100%);
 }
 .subBanner0{
-    height: 640px;
+    height: 440px;
     background-color: red;
 }
 .portada0{
     margin: 5px;
     background-color: black;
     width: 240px;
-    height: 300px;
+    height: 330px;
     border-radius: 10px;
 }
 .portadaImg{
+    position: absolute;
     border-radius: 10px;
     width: 240px;
-    height: 300px;
+    height: 330px;
 }
-.infoTemp{
+
+.tempMenu{
+    animation-name: tempMenu;
+    animation-iteration-count: initial;
+    animation-duration: 0.5s;
+    position: absolute;
+    width: 490px;
     background-color: aqua;
-    width: 440px;
-    height: 300px;
+    height: 330px;
     border-radius: 10px;
 }
+@keyframes tempMenu {
+    0%{ width: 0px;  }
+    25%{ width: 100px;;  }
+    
+    50%{ width: 200px;  }
+    75%{ width: 340px;  }
+    100%{ width: 490px;  }
+
+    
+}
+
 .portadaImg:hover{
     cursor: pointer;
-    width: 142px;
-    height: 222px;
     filter: drop-shadow( 5px 5px 5px black);
 }
 .media0{
