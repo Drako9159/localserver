@@ -44,7 +44,6 @@
     cursor:pointer;
     
 }
-
 .section1{
     color: rgb(0, 57, 122);
     display: flex;
@@ -70,7 +69,6 @@
     width: 240px;
     height: 330px;
 }
-
 .tempMenu{
     animation-name: tempMenu;
     animation-iteration-count: initial;
@@ -84,12 +82,9 @@
 @keyframes tempMenu {
     0%{ width: 0px;  }
     25%{ width: 100px;;  }
-    
     50%{ width: 200px;  }
     75%{ width: 340px;  }
     100%{ width: 490px;  }
-
-    
 }
 
 .portadaImg:hover{
