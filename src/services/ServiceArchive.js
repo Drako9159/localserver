@@ -1,4 +1,3 @@
-
 class MoviesArchive{
     static nameMovie(movies, number){
         return movies[number].name
@@ -10,4 +9,5 @@ class MoviesArchive{
         return movies[number].path
     }
 }
+
 module.exports = MoviesArchive;
