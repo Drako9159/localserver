@@ -58,10 +58,8 @@
     background-color: rgb(128, 128, 128);
 }
 .closeMovOn:hover{
-    cursor:pointer;
-    
+    cursor:pointer;   
 }
-
 .section1{
     color: rgb(0, 57, 122);
     display: flex;
@@ -148,7 +146,6 @@
     
 }
 .dropImg0:hover{
-  
     cursor: pointer;
 }
 .version0{
@@ -172,554 +169,125 @@
     justify-content: space-evenly;
     align-items: center;
 }
-@media (min-width: 200px) {
+@media (min-width: 200px) and (max-width: 260px) {
     .home0{
         font-size: 20px;
-        color: rgb(9, 202, 221);
-        justify-content: left;
         height: 40px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
     }
     .menuImg0{
         margin: 5px;
         width: 25px;
     }
     .subTitle0{
-        font-size: 13px;
-    }
-    .closeMov0{
-        margin: 0px;
-        width: 0px;
+        font-size: 15px;
     }
     .closeMovOn{
         margin: 20px;
         width: 30px;
         white-space: 10px;
-        background-color: rgb(128, 128, 128);
     }
     .section1{
-        color: rgb(0, 57, 122);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 580px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
+        height: 590px;
     }
     .subBanner0{
-        height: 500px;
-        background-color: transparent;
+        height: 590px;
     }
     .portada0{
-        margin: 5px;
-        background-color: black;
-        width: 50px;
-        height: 80px;
+        width: 55px;
+        height: 85px;
     }
     .portadaImg{
-        width: 50px;
-        height: 80px;
+        width: 55px;
+        height: 85px;
     }
     .portadaImg:hover{
-        cursor: pointer;
         width: 51px;
         height: 82px;
         filter: none;
     }
     .nameMovOn{
         font-size: 13px;
-        color:rgb(107, 107, 107)
     }
     .videoOn{
-        opacity: 1.0;
-        width: 239px;
+        width: 200px;
         height: 130px;
     }
     .dropImg0{
         width: 30px;
         height: 30px;
         margin: 5px;
-        filter:drop-shadow(3px 3px 3px black);
-        background-color: transparent;
-        
     }
 }
-@media (min-width: 240px) {
-    .home0{
-        font-size: 20px;
-        color: rgb(9, 202, 221);
-        justify-content: left;
-        height: 40px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-    }
-    .menuImg0{
-        margin: 5px;
-        width: 25px;
-    }
+@media (min-width: 260px) and (max-width: 300px){
     .subTitle0{
-        font-size: 13px;
-    }
-    .closeMov0{
-        margin: 0px;
-        width: 0px;
-    }
-    .closeMovOn{
-        margin: 20px;
-        width: 30px;
-        white-space: 10px;
-        background-color: rgb(128, 128, 128);
+        font-size: 15px;
     }
     .section1{
-        color: rgb(0, 57, 122);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 400px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
+        height: 600px;
     }
     .subBanner0{
-        height: 400px;
-        background-color: transparent;
+        height: 600px;
     }
     .portada0{
-        margin: 5px;
-        background-color: black;
-        width: 50px;
-        height: 80px;
+        width: 65px;
+        height: 85px;
     }
     .portadaImg{
-        width: 50px;
-        height: 80px;
+        width: 65px;
+        height: 85px;
     }
     .portadaImg:hover{
-        cursor: pointer;
         width: 51px;
         height: 82px;
         filter: none;
     }
     .nameMovOn{
-        font-size: 13px;
-        color:rgb(107, 107, 107)
+        font-size: 15px;
     }
     .videoOn{
-        opacity: 1.0;
-        width: 230px;
+        width: 260px;
         height: 130px;
     }
     .dropImg0{
         width: 30px;
         height: 30px;
         margin: 5px;
-        filter:drop-shadow(3px 3px 3px black);
-        background-color: transparent;
-        
     }
 }
-@media (min-width: 360px) {
-    .home0{
-        font-size: 20px;
-        color: rgb(9, 202, 221);
-        justify-content: left;
-        height: 40px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-    }
-    .menuImg0{
-        margin: 5px;
-        width: 25px;
-    }
+@media (min-width: 300px) and (max-width: 700px) {
     .subTitle0{
-        font-size: 13px;
-    }
-    .closeMov0{
-        margin: 0px;
-        width: 0px;
-    }
-    .closeMovOn{
-        margin: 20px;
-        width: 30px;
-        white-space: 10px;
-        background-color: rgb(128, 128, 128);
+        font-size: 15px;
     }
     .section1{
-        color: rgb(0, 57, 122);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 440px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
+        height: 650px;
     }
     .subBanner0{
-        height: 440px;
-        background-color: transparent;
+        height: 650px;
     }
     .portada0{
-        margin: 5px;
-        background-color: black;
-        width: 70px;
-        height: 90px;
+        width: 75px;
+        height: 95px;
     }
     .portadaImg{
-        width: 70px;
-        height: 90px;
+        width: 75px;
+        height: 95px;
     }
     .portadaImg:hover{
-        cursor: pointer;
         width: 51px;
         height: 82px;
         filter: none;
     }
     .nameMovOn{
-        font-size: 15px;
-        color:rgb(107, 107, 107)
+        font-size: 20px;
     }
     .videoOn{
-        opacity: 1.0;
-        width: 350px;
-        height: 200px;
+        width: 300px;
+        height: 150px;
     }
     .dropImg0{
         width: 30px;
         height: 30px;
         margin: 5px;
-        filter:drop-shadow(3px 3px 3px black);
-        background-color: transparent;
-        
     }
 }
-@media (min-width: 480px) {
-    .home0{
-        font-size: 20px;
-        color: rgb(9, 202, 221);
-        justify-content: left;
-        height: 40px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-    }
-    .menuImg0{
-        margin: 5px;
-        width: 25px;
-    }
-    .subTitle0{
-        font-size: 15px;
-    }
-    .closeMov0{
-        margin: 0px;
-        width: 0px;
-    }
-    .closeMovOn{
-        margin: 20px;
-        width: 30px;
-        white-space: 10px;
-        background-color: rgb(128, 128, 128);
-    }
-    .section1{
-        color: rgb(0, 57, 122);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 340px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-    }
-    .subBanner0{
-        height: 340px;
-        background-color: transparent;
-    }
-    .portada0{
-        margin: 5px;
-        background-color: black;
-        width: 70px;
-        height: 90px;
-    }
-    .portadaImg{
-        width: 70px;
-        height: 90px;
-    }
-    .portadaImg:hover{
-        cursor: pointer;
-        width: 51px;
-        height: 82px;
-        filter: none;
-    }
-    .nameMovOn{
-        font-size: 15px;
-        color:rgb(107, 107, 107)
-    }
-    .videoOn{
-        opacity: 1.0;
-        width: 470px;
-        height: 240px;
-    }
-    .dropImg0{
-        width: 30px;
-        height: 30px;
-        margin: 5px;
-        filter:drop-shadow(3px 3px 3px black);
-        background-color: transparent;
-        
-    }
-}
-@media (min-width: 640px) {
-    .home0{
-        font-size: 20px;
-        color: rgb(9, 202, 221);
-        justify-content: left;
-        height: 40px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-    }
-    .menuImg0{
-        margin: 5px;
-        width: 25px;
-    }
-    .subTitle0{
-        font-size: 15px;
-    }
-    .closeMov0{
-        margin: 0px;
-        width: 0px;
-    }
-    .closeMovOn{
-        margin: 20px;
-        width: 30px;
-        white-space: 10px;
-        background-color: rgb(128, 128, 128);
-    }
-    .section1{
-        color: rgb(0, 57, 122);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 240px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-    }
-    .subBanner0{
-        height: 240px;
-        background-color: transparent;
-    }
-    .portada0{
-        margin: 5px;
-        background-color: black;
-        width: 70px;
-        height: 90px;
-    }
-    .portadaImg{
-        width: 70px;
-        height: 90px;
-    }
-    .portadaImg:hover{
-        cursor: pointer;
-        width: 51px;
-        height: 82px;
-        filter: none;
-    }
-    .nameMovOn{
-        font-size: 15px;
-        color:rgb(107, 107, 107)
-    }
-    .videoOn{
-        opacity: 1.0;
-        width: 480px;
-        height: 240px;
-    }
-    .dropImg0{
-        width: 30px;
-        height: 30px;
-        margin: 5px;
-        filter:drop-shadow(3px 3px 3px black);
-        background-color: transparent;
-        
-    }
-}
-@media (min-width: 720px) {
-    .home0{
-        font-size: 20px;
-        color: rgb(9, 202, 221);
-        justify-content: left;
-        height: 40px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-    }
-    .menuImg0{
-        margin: 5px;
-        width: 25px;
-    }
-    .subTitle0{
-        font-size: 15px;
-    }
-    .closeMov0{
-        margin: 0px;
-        width: 0px;
-    }
-    .closeMovOn{
-        margin: 20px;
-        width: 30px;
-        white-space: 10px;
-        background-color: rgb(128, 128, 128);
-    }
-    .section1{
-        color: rgb(0, 57, 122);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 310px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-    }
-    .subBanner0{
-        height: 310px;
-        background-color: transparent;
-    }
-    .portada0{
-        margin: 5px;
-        background-color: black;
-        width: 80px;
-        height: 110px;
-    }
-    .portadaImg{
-        width: 80px;
-        height: 110px;
-    }
-    .portadaImg:hover{
-        cursor: pointer;
-        width: 51px;
-        height: 82px;
-        filter: none;
-    }
-    .nameMovOn{
-        font-size: 15px;
-        color:rgb(107, 107, 107)
-    }
-    .videoOn{
-        opacity: 1.0;
-        width: 480px;
-        height: 240px;
-    }
-    .dropImg0{
-        width: 30px;
-        height: 30px;
-        margin: 5px;
-        filter:drop-shadow(3px 3px 3px black);
-        background-color: transparent;
-        
-    }
-}
-@media (min-width: 1200px) {
-    .home0{
-    
-        font-size: 20px;
-        color: rgb(9, 202, 221);
-        justify-content: left;
-        height: 40px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-    }
-    .menuImg0{
-        margin: 5px;
-        width: 25px;
-    }
-    .subTitle0{
-        
-        font-size: 20px;
-    }
-    
-    
-    .closeMov0{
-        margin: 0px;
-        width: 0px;
-    }
-    .closeMovOn{
-        
-        margin: 20px;
-        width: 50px;
-        white-space: 10px;
-        background-color: rgb(128, 128, 128);
-    }
-    .closeMovOn:hover{
-        cursor:pointer;
-        
-    }
-    
-    .section1{
-        color: rgb(0, 57, 122);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 540px;
-        background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
-    }
-    .subBanner0{
-        height: 540px;
-        background-color: transparent;
-    }
-    .portada0{
-        margin: 5px;
-        background-color: black;
-        width: 140px;
-        height: 220px;
-    }
-    .portadaImg{
-        width: 140px;
-        height: 220px;
-    }
-    .portadaImg:hover{
-        cursor: pointer;
-        width: 142px;
-        height: 222px;
-        filter: drop-shadow( 5px 5px 5px black);
-    }
-    .media0{
-        width: 0px;
-        height: 0px;
-    }
-    .mediaOn{
-        
-        font-size: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        opacity: 0.9;
-        background-color: black;
-        width: 100%;
-        height: 100%;  
-        flex-direction: column;
-        
-        
-    }
-    .nameMov0{
-        font-size: 0px;
-    
-    }
-    .nameMovOn{
-        font-size: 20px;
-        color:rgb(107, 107, 107)
-    
-    }
-    .video0{
-        
-        width: 0px;
-        height: 0px;
-    }
-    .videoOn{
-        opacity: 1.0;
-        width: 800px;
-        height: 400px;
-    }
-    .drop0{
-        height: 50px;
-        background-color: rgb(0, 42, 90);
-    }
-    .dropImgOff{
-        width: 0px;
-        height: 0px;
-    
-        filter: none;
-    
-    }
-    .dropImg0{
-        width: 30px;
-        height: 30px;
-        margin: 0px;
-        filter:drop-shadow(3px 3px 3px black);
-        background-color: transparent;
-        
-        
-    }
 
-
-
-}
