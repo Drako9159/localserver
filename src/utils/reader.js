@@ -5,5 +5,5 @@ class Reader{
         return JSON.parse(rawdata);
     }
 }
-
+//Reader that listening file and return the content
 module.exports = Reader

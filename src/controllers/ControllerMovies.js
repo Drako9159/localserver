@@ -1,7 +1,7 @@
 const Reader = require("../utils/reader");
 const movies = Reader.readJsonFile("../src/assets/NewContent/movies.json");
 const MoviesArchive = require("../services/ServiceArchive");
-
+//Redefinition for future script
 
 class PlayMovies{
     static getName(number){
