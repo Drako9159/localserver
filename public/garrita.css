@@ -6,12 +6,12 @@
 
 #header0 {
     margin: auto;
-    width: 369px;
-    font-family:Arial, Helvetica, sans-serif;
+    width: 375px;
+    font-family: Arial, Helvetica, sans-serif
     
 }
 
-ul, ol, li{
+ul, ol{
     list-style: none;
     background-color: yellow;
     
@@ -31,7 +31,8 @@ ul, ol, li{
 .nav li a:hover {
     background-color:#434343;
 }
-.nav li h4{
+.nav li button{
+    border-style: none;
     margin: auto;
     font-size: 17px;
     background-color:#000;
@@ -40,7 +41,7 @@ ul, ol, li{
     padding:10px 12px 10px 10px;
     display:block;
 }
-.nav li h4:hover{
+.nav li button:hover{
     cursor: pointer;
     background-color:#434343;
 }
@@ -52,12 +53,7 @@ ul, ol, li{
     position:absolute;
    
 }
-.contacto0 ul{
-    
 
-
-   
-}
 
 
 
@@ -75,13 +71,12 @@ ul, ol, li{
 }
 .nav li ul li ul {
     
-    right:-140px;
+    right:-130px;
     top:0px;
 }
 menu{
     background-color: rgb(41, 38, 38);
-    
-    
+   
     
 }
 
@@ -89,10 +84,31 @@ menu{
 #banner0 {
     min-width: 369px;
     background-color: red;
-
+  
     height: 1200px;
 }
 #banner1 {
     background-color: blue;
     height: 50px;
+}
+#paquets{
+    background-color: #000;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 369px;
+    
+}
+#paquets div{
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    
+    background-color: aqua;
+   
+
 }
