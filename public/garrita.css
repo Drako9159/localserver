@@ -1,21 +1,20 @@
 * {
     margin:0px;
     padding:0px;
-    background-color: purple;
+    background-color: green;
 }
 
 #header0 {
-    
-    
-    
     margin: auto;
     width: 369px;
     font-family:Arial, Helvetica, sans-serif;
     
 }
 
-ul, ol {
-    list-style:none;
+ul, ol, li{
+    list-style: none;
+    background-color: yellow;
+    
 }
 
 .nav > li {
@@ -44,21 +43,32 @@ ul, ol {
 .nav li h4:hover{
     cursor: pointer;
     background-color:#434343;
-
 }
+
+
 
 .nav li ul {
-    
     display:none;
     position:absolute;
-    min-width:140px;
+   
 }
+.contacto0 ul{
+    
+
+
+   
+}
+
+
+
 .nav li:hover > ul {
     display: block;
 }
 .nav li:checked > ul{
     display: block;
 }
+
+
 
 .nav li ul li {
     position:relative;
@@ -80,7 +90,7 @@ menu{
     min-width: 369px;
     background-color: red;
 
-    height: 100px;
+    height: 1200px;
 }
 #banner1 {
     background-color: blue;
