@@ -66,6 +66,7 @@ ul, ol{
     top:0px;
 }
 menu{
+    
     background-color: rgb(41, 38, 38);
 }
 #banner0 {
@@ -132,5 +133,92 @@ menu{
     90%{ width: 100%;  }
     100%{ width: 120%;  }
 }
+#weAdd{
+    background-color: yellow;
+    height: 100px;
+}
+#weAdd banner0{
+    display: block;
+    background-color: green;
+    height: 100px;
+    position: relative;
+    animation-name: banner0;
+    animation-duration: 30.0s;
+    animation-iteration-count: infinite;
+}
+#weAdd banner1{
+    
+    top: -100px;
+    display: block;
+    background-color: cyan;
+    height: 100px;
+    position: relative;
+    animation-name: banner1;
+    animation-duration: 30.0s;
+    animation-iteration-count: infinite;
+    
+}
+#weAdd banner2{
+    top: -200px;
+    display: block;
+    background-color: black;
+    height: 100px;
+    position: relative;
+    animation-name: banner2;
+    animation-duration: 30.0s;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes banner0 {
+    0% { opacity: 100%; }
+    10% { opacity: 100% ; }
+    20% { opacity: 50%; }
+    30% { opacity: 0%; }
+    40% { opacity: 0% ;}
+    50% { opacity: 0% ;}
+    60% { opacity: 0%; }
+    70% { opacity: 0% ; }
+    80% { opacity: 50%; }
+    90% { opacity: 100%; }
+    100% { opacity: 100% ;}
+    100% { opacity: 100% ;} 
+}
+@keyframes banner1 {
+    0% { opacity: 0%; }
+    10% { opacity: 0% ; }
+    20% { opacity: 50%; }
+    30% { opacity: 100%; }
+    40% { opacity: 100% ;}
+    50% { opacity: 50% ;}
+    60% { opacity: 0%; }
+    70% { opacity: 0% ; }
+    80% { opacity: 0%; }
+    90% { opacity: 0%; }
+    100% { opacity: 0% ;}
+    
+}
+@keyframes banner2 {
+    0% { opacity: 0%; }
+    10% { opacity: 0% ; }
+    20% { opacity: 0%; }
+    30% { opacity: 0%; }
+    40% { opacity: 0% ;}
+    50% { opacity: 50% ;}
+    60% { opacity: 100%; }
+    70% { opacity: 100% ; }
+    80% { opacity: 50%; }
+    90% { opacity: 0%; }
+    100% { opacity: 0% ;}
+    
+}
+#about{
+    height: 200px;
+    background-color: blue;
+    color: red;
+    min-width: 300px;
+}
+
+
 
 
