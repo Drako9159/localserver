@@ -6,11 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./form.css">
 <body>
     <section>
-        <div id="contact">
-            <h2>Ingrese sus datos de contacto</h2>
-        </div>
+        <form id="contact" class="container">
+            
+            <div>
+                <button><a href="./garrita.html">Regresar</a></button>
+                <h2>Ingrese sus datos de contacto</h2>
+            </div>
+            <contact>
+                <label for="name">Nombre completo</label>
+                <input type="name" name="name">
+                <br>
+                <label for="phone">Número</label>
+                <input type="tel" style="min-width: 200px; max-width: 250px;" name="phone" maxlength="10">
+                <br>
+                <label for="direction">Dirección</label>
+                <input type="text" style="height: 100px;" name="direction">
+                <br>
+                <label for="date">Fechas disponibles</label>
+                <input type="date" name="date">
+                <br>
+                <label for="time">Horarios disponibles</label>
+                <div class="time0">
+                    <h2>De</h2>
+                    <input type="time" name="time">
+                    <h2>a</h2>
+                    <input type="time" name="time">
+                </div>
+                <br>
+                
+
+                <input type="submit" name="submit" class="submit0" >
+                <br>
+            </contact>
+
+        </form>
+        
+        
     </section>
 </body>
 </html>

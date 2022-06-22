@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: aquamarine;
+}
+#contact{
+    
+    min-width: 300px;
+    max-width: 600px;
+    background-color: rgb(189, 186, 0);
+}
+#contact h2{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+#contact contact{
+    display: flex;
+    flex-direction: column;
+}
+.submit0{
+    text-decoration: none;
+    
+}
+.time0{
+    display: flex;
+    justify-content:space-around;
+    min-width: 300px;
+    max-width: 400px;
+    
+
+}
+#contact div button a{
+    text-decoration: none;
+    color: red;
+    padding: 5px;
+    margin: 5px;
+}
+#contact div button{
+    border-style:groove;
+    border-width: 1px;
+    margin-top: 5px;
+}

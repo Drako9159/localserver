@@ -1,9 +1,8 @@
 * {
     margin:0px;
     padding:0px;
-    background-color: white;
+    background-color: rgb(248, 248, 248);
 }
-
 #header0 {
     background-color:rgb(41, 38, 38);
     margin: auto;
@@ -14,14 +13,12 @@ ul, ol{
     list-style: none;
     background-color: yellow;
 }
-
 .nav{
     background-color: transparent;
 }
 .nav > li {
     float: left;
 }
-
 .nav li a {
     background-color:#434343;
     color:#fff;
@@ -46,18 +43,11 @@ ul, ol{
     cursor: pointer;
     background-color:#434343;
 }
-
-
-
 .nav li ul {
     display:none;
     position:absolute;
    
 }
-
-
-
-
 .nav li:hover > ul {
     display: block;
 }
@@ -77,16 +67,11 @@ ul, ol{
 }
 menu{
     background-color: rgb(41, 38, 38);
-   
-    
 }
-
-
 #banner0 {
     min-width: 369px;
     background-color: red;
-  
-    height: 1200px;
+    height: 200px;
 }
 #banner1 {
     background-color: blue;
@@ -100,7 +85,6 @@ menu{
     align-items: center;
     justify-content: center;
     min-width: 369px;
-    
 }
 #paquets div{
 
@@ -113,12 +97,10 @@ menu{
     justify-content: end;
     flex-direction: column;
     text-align: center;
-    
 }
 #paquets div:hover{
     cursor: pointer;
     filter: drop-shadow(2px 2px 2px rgb(0, 177, 177));
-   
 }
 #paquets div p{
     background-color: transparent;
@@ -137,7 +119,6 @@ menu{
     border-radius: 10px;
     animation-name: cost;
     animation-duration: 0.2s;
-    
     height: 40px;
  }
 
