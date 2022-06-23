@@ -54,9 +54,7 @@ ul, ol{
 .nav li:hover > ul {
     display: block;
 }
-.nav li:checked > ul{
-    display: block;
-}
+
 
 
 
@@ -213,7 +211,6 @@ menu{
     80% { opacity: 50%; }
     90% { opacity: 0%; }
     100% { opacity: 0% ;}
-    
 }
 #about{
     font-size: 20px;
@@ -224,18 +221,29 @@ menu{
 #about div{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-#about button{
+#about div button{
     border-radius: 10px;
     background-color: red;
     padding: 5px;
+    max-width: 200px;
 }
-#about p{
-    display: block;
+#about div p{
+    display: none;
     position: relative;
     background-color: chocolate;
     border-radius: 5px;
     padding: 5px;
+}
+
+#about div:hover{
+    cursor: pointer;
+}
+#about div:hover > p{
+    cursor: pointer;
+    display: block;
 }
 
 
