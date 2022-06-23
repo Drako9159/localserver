@@ -223,15 +223,24 @@ menu{
 }
 #about div{
     display: flex;
-    
     justify-content: center;
 }
-#about div button{
-    border-radius: 10px 10px 10px 10px;
+#about button{
+    border-radius: 10px;
     background-color: red;
     padding: 5px;
-
 }
+#about p{
+    display: block;
+    position: relative;
+    background-color: chocolate;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+
 
 
 
