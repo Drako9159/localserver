@@ -12,7 +12,7 @@ body{
     width: 372px;
     font-family: Arial, Helvetica, sans-serif
 }
-ul, ol{
+ul, li{
     list-style: none;
     background-color: yellow;
 }
@@ -20,7 +20,7 @@ ul, ol{
     background-color: transparent;
 }
 .nav > li {
-    float: left;
+    float:left;
 }
 .nav li a {
     background-color:#434343;
