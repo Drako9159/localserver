@@ -4,68 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Server</title>
-    
-    <link rel="stylesheet" type="text/css" href="../src/assets/NewContent/NewContent.css">
+    <title>servidor</title>
 </head>
+<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../components/NewContent/initialContent.css">
 <body>
     <section>
-        
-        <div class="media0" id="media0" >
-            <img class="closeMov0" onclick="mediaOff()" id="closeMov0" src="../src/assets/NewContent/assets/close.png"/>
-            <div class="nameMov0" id="nameMov0">NOMBREDELAPELICULA</div>
-            <video class="video0" id="video0" autoplay controls>
+        <div id="video" class="container-fluid">
+            <h2 onclick="mediaOff()">x</h2>
+            <h3 style="color: rgb(200,200,200)" id="needName"></h3>
+            <video class="container-sm" id="video0" autoplay controls>
                 <source type="video/mp4">
             </video>
         </div>
     </section>
-    <section class="home0 flex-container">
-        <img class="menuImg0" src="../src/assets/NewContent/assets/menu.png">
-        IEEE
-    </section>
-    <section class="section1">
-        <div class="subBanner0 got flex-container">
-            <h2 class="subTitle0" >NUEVO CONTENIDO</h2>
-            <div class="flex-container test">
-                <div class="portada0" onclick="play(0)"><img class="portadaImg" id="img0"></div>
-                <div class="portada0" onclick="play(1)"><img class="portadaImg" id="img1"></div>
-                <div class="portada0" onclick="play(2)"><img class="portadaImg" id="img2"></div>
-                <div class="portada0" onclick="play(3)"><img class="portadaImg" id="img3"></div>
-                <div class="portada0" onclick="play(4)"><img class="portadaImg" id="img4"></div>
-                <div class="portada0" onclick="play(5)"><img class="portadaImg" id="img5"></div>
-                <div class="portada0" onclick="play(6)"><img class="portadaImg" id="img6"></div>
-                <div class="portada0" onclick="play(7)"><img class="portadaImg" id="img7"></div>
-                <div class="portada0" onclick="play(8)"><img class="portadaImg" id="img8"></div>
-                <div class="portada0" onclick="play(9)"><img class="portadaImg" id="img9"></div>
-                <div class="portada0" onclick="play(10)"><img class="portadaImg" id="img10"></div>
-                <div class="portada0" onclick="play(11)"><img class="portadaImg" id="img11"></div>
-                <div class="portada0" onclick="play(12)"><img class="portadaImg" id="img12"></div>
-                <div class="portada0" onclick="play(13)"><img class="portadaImg" id="img13"></div>
-                <div class="portada0" onclick="play(14)"><img class="portadaImg" id="img14"></div>
-                <div class="portada0" onclick="play(15)"><img class="portadaImg" id="img15"></div>
+    <section>
+        <menu>
+            <div id="header" class="container">
+                <ul id="menu">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="">Películas</a></li>
+                    <li><a href="">Series</a></li>
+                    <li><a href="">Drop</a></li>
+                </ul>
             </div>
+        </menu>
+    </section>
+    <section>
+        <div id="content" >
+            <ul class="container">
+                <li><img onclick="play(0)" id="img0"></li>
+                <li><img onclick="play(1)" id="img1"></li>
+                <li><img onclick="play(2)" id="img2"></li>
+                <li><img onclick="play(3)" id="img3"></li>
+                <li><img onclick="play(4)" id="img4"></li>
+                <li><img onclick="play(5)" id="img5"></li>
+                <li><img onclick="play(6)" id="img6"></li>
+                <li><img onclick="play(7)" id="img7"></li>
+                <li><img onclick="play(8)" id="img8"></li>
+                <li><img onclick="play(9)" id="img9"></li>
+                <li><img onclick="play(10)" id="img10"></li>
+                <li><img onclick="play(11)" id="img11"></li>
+                <li><img onclick="play(12)" id="img12"></li>
+                <li><img onclick="play(13)" id="img13"></li>
+                <li><img onclick="play(14)" id="img14"></li>
+                <li><img onclick="play(15)" id="img15"></li>
+                
+            </ul>
         </div>
-        
     </section>
-    <section class="drop0 flex-container separateItems">
-        <a href="../src/assets/ArchiveMovies/ArchiveMovies.html">
-        <div class="marginDownload"><img class="dropImg0" id="dropImg0" src="../src/assets/NewContent/assets/movies.png"></div>
-        </a>
-        <a href="../src/assets/Series/Series.html">
-        <div class="marginDownload"><img class="dropImg0" id="dropImg1" src="../src/assets/NewContent/assets/series.png"></div>
-        </a>
-        <div class="marginDownload"><img class="dropImg0" id="dropImg2" src="../src/assets/NewContent/assets/music.png"></div>
-        <a href="../src/assets/drop/Spotify-8.7.30.1221-Mod-Arm64-www.ReXdl.com.apk" download>
-        <div class="marginDownload"><img class="dropImg0" id="dropImg3" src="../src/assets/NewContent/assets/download.png"></div>
-        </a>
+    <section>
+        <p style="background-color: rgb( 37, 37, 37); color: rgb(200, 200, 200); margin: auto; min-width: 300px;" align="center">
+            version 0.5
+        </p>
     </section>
-    <section class="version0">
-        version 0.09
-    </section>
-    
-    
-    
-    
 </body>
 </html>
-<script src="../src/assets/NewContent/NewContent.js"></script>
+<script src="../components/NewContent/initialContent.js"></script>
