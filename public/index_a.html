@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>servidor</title>
 </head>
 <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="../components/NewContent/initialContent.css">
 <body>
     <section>
-        <div id="video"  class="container-fluid">
-            <video class="container-sm" src="./Las cintas de John Wayne Gacy  3.mp4" autoplay controls>
+        <div id="video" class="container-fluid">
+            <h2 onclick="mediaOff()">x</h2>
+            <h3 style="color: rgb(0, 42, 90)" id="needName"></h3>
+            <video class="container-sm" id="video0" autoplay controls>
                 <source type="video/mp4">
             </video>
         </div>
@@ -20,9 +22,10 @@
         <menu>
             <div id="header" class="container">
                 <ul id="menu">
-                    <li onclick="play()">Inicio</li>
+                    <li>Inicio</li>
                     <li>Películas</li>
                     <li>Series</li>
+                    <li>Drop</li>
                 </ul>
             </div>
         </menu>
@@ -30,26 +33,23 @@
     <section>
         <div id="content" >
             <ul class="container">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><img onclick="play(0)" id="img0"></li>
+                <li><img onclick="play(1)" id="img1"></li>
+                <li><img onclick="play(2)" id="img2"></li>
+                <li><img onclick="play(3)" id="img3"></li>
+                <li><img onclick="play(4)" id="img4"></li>
+                <li><img onclick="play(5)" id="img5"></li>
+                <li><img onclick="play(6)" id="img6"></li>
+                <li><img onclick="play(7)" id="img7"></li>
+                <li><img onclick="play(8)" id="img8"></li>
+                <li><img onclick="play(9)" id="img9"></li>
+                <li><img onclick="play(10)" id="img10"></li>
+                <li><img onclick="play(11)" id="img11"></li>
+                <li><img onclick="play(12)" id="img12"></li>
+                <li><img onclick="play(13)" id="img13"></li>
+                <li><img onclick="play(14)" id="img14"></li>
+                <li><img onclick="play(15)" id="img15"></li>
+                
             </ul>
         </div>
     </section>
@@ -58,8 +58,6 @@
             version 0.5
         </p>
     </section>
-
 </body>
-
 </html>
 <script src="../components/NewContent/initialContent.js"></script>
