@@ -7,11 +7,11 @@
     <title>Document</title>
 </head>
 <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="./newContent.css">
+<link rel="stylesheet" type="text/css" href="../components/NewContent/initialContent.css">
 <body>
     <section>
         <div id="video"  class="container-fluid">
-            <video autoplay controls>
+            <video class="container-sm" src="./Las cintas de John Wayne Gacy  3.mp4" autoplay controls>
                 <source type="video/mp4">
             </video>
         </div>
@@ -20,7 +20,7 @@
         <menu>
             <div id="header" class="container">
                 <ul id="menu">
-                    <li>Inicio</li>
+                    <li onclick="play()">Inicio</li>
                     <li>Películas</li>
                     <li>Series</li>
                 </ul>
@@ -60,4 +60,6 @@
     </section>
 
 </body>
+
 </html>
+<script src="../components/NewContent/initialContent.js"></script>

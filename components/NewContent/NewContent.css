@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.got{
+    display: flex;
+    flex-direction: column;
+}
+.home0{
+    
+    font-size: 20px;
+    color: rgb(9, 202, 221);
+    justify-content: left;
+    height: 40px;
+    background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
+}
+.menuImg0{
+    margin: 5px;
+    width: 25px;
+}
+
+.subTitle0{
+    animation-name: subTitle0;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    font-size: 20px;
+}
+
+@keyframes subTitle0 {
+    0%{ color: rgb(0, 42, 90);  }
+    10%{ color: rgb(0, 56, 121);  }
+    20%{ color: rgb(0, 69, 148);  }
+    30%{ color: rgb(0, 72, 155);  }
+    40%{ color: rgb(0, 87, 187);  }
+    50%{ color: rgb(0, 94, 202);  }
+    60%{ color: rgb(0, 87, 187);  }
+    70%{ color: rgb(0, 72, 155);  }
+    80%{ color: rgb(0, 69, 148);  }
+    90%{ color: rgb(0, 56, 121);  }
+    100%{ color: rgb(0, 42, 90);  }
+}
+.closeMov0{
+    margin: 0px;
+    width: 0px;
+}
+.closeMovOn{
+    position: left;
+    margin: 20px;
+    width: 50px;
+    white-space: 10px;
+    background-color: rgb(128, 128, 128);
+}
+.closeMovOn:hover{
+    cursor:pointer;   
+}
+.section1{
+    color: rgb(0, 57, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 540px;
+    background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 42, 90) 100%);
+}
+.subBanner0{
+    height: 540px;
+    background-color: transparent;
+}
+.portada0{
+    margin: 5px;
+    background-color: black;
+    width: 140px;
+    height: 220px;
+}
+.portadaImg{
+    width: 140px;
+    height: 220px;
+}
+.portadaImg:hover{
+    cursor: pointer;
+    width: 142px;
+    height: 222px;
+    filter: drop-shadow( 5px 5px 5px black);
+}
+.media0{
+    width: 0px;
+    height: 0px;
+}
+.mediaOn{
+    
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    opacity: 0.9;
+    background-color: black;
+    width: 100%;
+    height: 100%;  
+    flex-direction: column;
+    
+    
+}
+.nameMov0{
+    font-size: 0px;
+
+}
+.nameMovOn{
+    font-size: 20px;
+    color:rgb(107, 107, 107)
+
+}
+.video0{
+    
+    width: 0px;
+    height: 0px;
+}
+.videoOn{
+    opacity: 1.0;
+    width: 800px;
+    height: 400px;
+}
+.drop0{
+    height: 50px;
+    background-color: rgb(0, 42, 90);
+}
+.dropImgOff{
+    width: 0px;
+    height: 0px;
+
+    filter: none;
+
+}
+.dropImg0{
+    width: 30px;
+    height: 30px;
+    margin: 25px;
+    filter:drop-shadow(3px 3px 3px black);
+    background-color: transparent;
+    
+}
+.dropImg0:hover{
+    cursor: pointer;
+}
+.version0{
+    font-size: 13px;
+    color: rgb(0, 70, 150);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+    background-color: rgb(0, 25, 53);
+}
+.test{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.separateItems{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media (min-width: 200px) and (max-width: 260px) {
+    .home0{
+        font-size: 20px;
+        height: 40px;
+    }
+    .menuImg0{
+        margin: 5px;
+        width: 25px;
+    }
+    .subTitle0{
+        font-size: 15px;
+    }
+    .closeMovOn{
+        margin: 20px;
+        width: 30px;
+        white-space: 10px;
+    }
+    .section1{
+        height: 590px;
+    }
+    .subBanner0{
+        height: 590px;
+    }
+    .portada0{
+        width: 55px;
+        height: 85px;
+    }
+    .portadaImg{
+        width: 55px;
+        height: 85px;
+    }
+    .portadaImg:hover{
+        width: 51px;
+        height: 82px;
+        filter: none;
+    }
+    .nameMovOn{
+        font-size: 13px;
+    }
+    .videoOn{
+        width: 200px;
+        height: 130px;
+    }
+    .dropImg0{
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+}
+@media (min-width: 260px) and (max-width: 300px){
+    .subTitle0{
+        font-size: 15px;
+    }
+    .section1{
+        height: 600px;
+    }
+    .subBanner0{
+        height: 600px;
+    }
+    .portada0{
+        width: 65px;
+        height: 85px;
+    }
+    .portadaImg{
+        width: 65px;
+        height: 85px;
+    }
+    .portadaImg:hover{
+        width: 51px;
+        height: 82px;
+        filter: none;
+    }
+    .nameMovOn{
+        font-size: 15px;
+    }
+    .videoOn{
+        width: 260px;
+        height: 130px;
+    }
+    .dropImg0{
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+}
+@media (min-width: 300px) and (max-width: 1200px) {
+    .subTitle0{
+        font-size: 15px;
+    }
+    .section1{
+        height: 650px;
+    }
+    .subBanner0{
+        height: 650px;
+    }
+    .portada0{
+        width: 75px;
+        height: 95px;
+    }
+    .portadaImg{
+        width: 75px;
+        height: 95px;
+    }
+    .portadaImg:hover{
+        width: 51px;
+        height: 82px;
+        filter: none;
+    }
+    .nameMovOn{
+        font-size: 20px;
+    }
+    .videoOn{
+        width: 300px;
+        height: 150px;
+    }
+    .dropImg0{
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+}
+

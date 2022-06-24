@@ -1,8 +1,8 @@
 node_modules
-src/assets/NewContent/img
-src/assets/NewContent/video
-src/assets/ArchiveMovies/img
-src/assets/ArchiveMovies/video
-src/assets/Series/img
-src/assets/Series/video
+components/NewContent/img
+components/NewContent/video
+components/ArchiveMovies/img
+components/ArchiveMovies/video
+components/Series/img
+components/Series/video
 src/assets/drop

@@ -48,6 +48,8 @@ menu{
     height: 200px;
    
 }
+
+
 #video{
     background-color: antiquewhite;
     width: 100%;
@@ -56,10 +58,13 @@ menu{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
-#video video{
-    margin-top: 50px;
-    min-width: 300px;
-    max-height: 240px;
 
+#video video{
+  
+    -webkit-flow-into: inherit;
+    -webkit-font-feature-settings: "smcp";
+    -moz-text-decoration-color: aqua;
+    
 }
