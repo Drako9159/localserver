@@ -80,10 +80,11 @@ menu{
     display: none;
     
 }
-
 #video h2{
-    background-color: rgb(170, 17, 17);
-    color: cyan;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 50);
+    color: rgb(200, 200, 200);
 }
 #video h2:hover{
     cursor: pointer;
