@@ -10,12 +10,14 @@
 <link rel="stylesheet" type="text/css" href="../components/NewContent/initialContent.css">
 <body>
     <section>
-        <div id="video" class="container-fluid">
-            <h2 onclick="mediaOff()">x</h2>
-            <h3 style="color: rgb(200,200,200)" id="needName"></h3>
+        <div id="video">
             <video class="container-sm" id="video0" autoplay controls>
                 <source type="video/mp4">
             </video>
+            <div class="container-sm">
+                <h3 style="color: rgb(100,100,100);" id="needName"></h3>
+                <h2 onclick="mediaOff()">x</h2>
+            </div>
         </div>
     </section>
     <section>
@@ -23,7 +25,7 @@
             <div id="header" class="container">
                 <ul id="menu">
                     <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="">Películas</a></li>
+                    <li><a href="../components/ArchiveMovies/initialArchive.html">Películas</a></li>
                     <li><a href="">Series</a></li>
                     <li><a href="">Drop</a></li>
                 </ul>

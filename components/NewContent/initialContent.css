@@ -26,12 +26,9 @@ ul, li, a{
 #menu li > a{
     color: rgb(200, 200, 200);
 }
-
 #menu li:hover{
     cursor: pointer;
     background-color: rgb(69, 69, 69);
-   
-
 }
 menu{
     min-width: 350px;
@@ -69,24 +66,39 @@ menu{
 }
 #video{
     background-color: rgb(37, 37, 37);
-    
     width: 100%;
-    height: 100%;
     position: fixed;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     display: none;
-    
 }
-#video h2{
-    padding: 15px;
-    border-radius: 10px;
-    background-color: rgb(50, 50, 50);
+#video div{
+    position: fixed;
+    display: flex;
+    text-align: end;
+    justify-content:space-between;
+}
+#video div h2{
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    width: 35px;
+    padding: 20px;
+    border-radius: 0px 0px 0px 10px;
+    background-color: rgb(60, 60, 60);
     color: rgb(200, 200, 200);
 }
-#video h2:hover{
+#video div h3{
+    margin: 5px;
+    opacity: 0.6;
+    font-size: 20px;
+   
+}
+#video div h2:hover{
     cursor: pointer;
 }
 
