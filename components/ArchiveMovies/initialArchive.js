@@ -276,7 +276,6 @@ for(let imgCharge = 0; imgCharge <= 66; imgCharge = imgCharge + 1 ){
     let pathImg = `./img/${checkMov}`;
     doc.src = pathImg;
 }
-
 function play(number){
     document.getElementById("video").style.display = "flex"
     let needVideo = movies[number].path;
