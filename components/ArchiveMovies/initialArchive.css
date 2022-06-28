@@ -50,7 +50,7 @@ menu{
 #content ul li{
     border-radius: 5px;
     margin: 5px;
-    background-color: aqua;
+    background-color: rgb(69,69,69);
     width: 160px;
     height: 230px;
 }
