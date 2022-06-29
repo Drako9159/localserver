@@ -104,5 +104,7 @@ menu{
    
 }
 #video div h2:hover{
+    transition: all 0.3s ease;
+    box-shadow: 0.3rem 0.4rem 1rem black;
     cursor: pointer;
 }
