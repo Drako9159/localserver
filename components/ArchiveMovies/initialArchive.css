@@ -108,3 +108,25 @@ menu{
     box-shadow: 0.3rem 0.4rem 1rem black;
     cursor: pointer;
 }
+#footer{
+    display: flex;
+    
+    
+    background-color: rgb(37,37,37);
+    color: rgb(200,200,200);
+    min-width: 350px;
+  
+}
+#footer p{
+    margin: 0 auto;
+}
+
+#footer a{
+    position: relative;
+    margin: 0;
+    top: -3rem;
+    left: -3rem;
+    color: rgb(200,200,200);
+}
+
+
