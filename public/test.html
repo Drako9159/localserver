@@ -9,32 +9,27 @@
 <link rel="stylesheet" type="text/css" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="./test.css">
 <body>
-    <section>
-        <menu  >
-            <div id="header" class="container-fluid">
-                <div>infinitum</div>
-                <div>PMG5617-T"0B</div>
-            </div>
-            <div id="slide" class="container-fluid">
-                <button>here</button>
-            </div>
-            <form action="/formulario" method="post">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre"/>
-                <br>
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" name="apellido"/>
-                <br>
-                <label for="comentario">Comentario</label>
-                <textarea cols="50" rows="10" id="comentario" name="comentario"></textarea>
-                <input type="submit"/>
-            </form>
-        </menu>
-        
+    <header></header>
+    
+    <section id="form">
+        <form action="/formulario" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre"/>
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido"/>
+            <br>
+            <label for="comentario">Comentario</label>
+            <textarea cols="50" rows="10" id="comentario" name="comentario"></textarea>
+            <input type="submit"/>
+            <button type="reset">reset</button>
+            <button type="button">botón</button>
+        </form>
     </section>
     <section>
         <div id="content"></div>
     </section>
+    <footer>Pie de página</footer>
     
 </body>
 </html>

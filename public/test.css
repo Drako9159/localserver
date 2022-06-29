@@ -2,7 +2,8 @@
     padding: 0px;
     margin: 0px;
 }
-#header{
+
+header{
     
     display: flex;
     flex-wrap: wrap;
@@ -12,33 +13,24 @@
     background-color: #E8E8E8;
     
 }
-#header div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 200px;
-    min-height: 40px;
-    background-color: red;
-    margin: 5px;
-    
+#form{
+    width: 500px;
+    margin: 0 auto;
+    background-color: #E8E8E8;
     
 }
 /**/
-#slide{
-    
-    display: flex;
-    align-items: right;
-    top: 0px;
-    justify-content: flex-end;
-    margin: 10px;
 
-}
 #content{
     min-width: 300px;
     display: flex;
     min-height: 600px;
     background-color: #E8E8E8;
 }
+
+
+
+
 /*Cuando el link no ha sido vistado*/
 a:link{
     color: blueviolet;
