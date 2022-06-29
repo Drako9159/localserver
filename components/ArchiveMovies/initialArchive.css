@@ -119,14 +119,16 @@ menu{
 }
 #footer p{
     margin: 0 auto;
+    color: rgb(150,150,150);
 }
 
 #footer a{
+    
     position: relative;
     margin: 0;
-    top: -3rem;
+    top: 0rem;
     left: -3rem;
-    color: rgb(200,200,200);
+    color: rgb(150,150,150);
 }
 
 
